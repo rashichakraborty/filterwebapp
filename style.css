@@ -1,0 +1,24 @@
+h3{
+    font-size: 30px !important;
+}
+
+.btn-success:hover{
+    background-color: brown;
+}
+
+canvas{
+    animation-name: picanimation;
+    animation-duration: 5s;
+    animation-iteration-count:infinite ;
+}
+
+@keyframes picanimation{
+    from{box-shadow: 2px 2px 50px red;}
+    to{box-shadow: 2px 2px 50px blueviolet;}
+}
+
+button{
+    animation-name: picanimation;
+    animation-duration: 5s;
+    animation-iteration-count:infinite ; 
+}
